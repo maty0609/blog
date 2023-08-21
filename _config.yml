@@ -6,7 +6,7 @@
 title: Maty's Notes
 email: email@matyasprokop.com
 description: Random notes about Network Automation, DevOps, Linux and SDN
-url: https://blog.matyasprokop.com
+url: http://blog.matyasprokop.com
 
 
 #
@@ -36,7 +36,7 @@ kramdown:
 owner:
   name: Maty's Notes
   #avatar: leonids-logo.png
-  job: #"A jekyll theme"
+  #job: #"A jekyll theme"
   bio: "Random notes about Network Automation, DevOps, Linux and SDN"
   email: email@matyasprokop.com
   disqus-shortname: blog-matyasprokop-com
