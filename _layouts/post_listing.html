@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<br>
+<h3>Maty's Notes</h3>
+<br>
+Welcome to my simple notes webpage! This website provides references to my available materials and the information about my presentations and other projects.<p>
+
+Please navigate yourself via the navigation panel.
+<br>
+<br>
+<h3>Latest blog posts</h3>
+<div class="archive">
+  <div class="timeline" id="timeline">
+    {% for post in site.posts %}
+    {% unless post.next %}
+    <div class="archive-title">
+      <h4 class="archive-year">{{ post.date | date: '%Y' }}</h4>
+    </div>
+
+    <ul>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+    {% if year != nyear %}
+    </ul>
+    <div class="archive-title">
+      <h4 class="archive-year">{{ post.date | date: '%Y' }}</h4>
+    </div>
+
+    <ul>
+    {% endif %}
+    {% endunless %}
+    <li>
+      <div style="width:60px;float:left;">{{ post.date | date: "%-d %b" }}</div> <a href="{{ site.url }}{{ post.url }}.html">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+
+  </div>
+
+</div>
+
+<br>
+<br>
+This website is built with GitLab CI/CD using Jekyll and running on my personal Apache server at <a href="https://www.bubakov.net">Bubakov.net</a>.
+<br>
+<br>

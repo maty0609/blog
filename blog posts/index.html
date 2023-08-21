@@ -1,0 +1,65 @@
+---
+layout: page
+title:  Blog Posts
+permalink: /blog posts/
+---
+
+<h3> My Blogs </h3>
+
+My posts hosted on this site. I will try to write as often as I can.
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    {% for post in site.posts %}
+    {% unless post.next %}
+    <div class="archive-title">
+      <h4 class="archive-year">{{ post.date | date: '%Y' }}</h4>
+    </div>
+
+    <ul>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+    {% if year != nyear %}
+    </ul>
+    <div class="archive-title">
+      <h4 class="archive-year">{{ post.date | date: '%Y' }}</h4>
+    </div>
+
+    <ul>
+    {% endif %}
+    {% endunless %}
+    <li>
+      <div style="width:60px;float:left;">{{ post.date | date: "%b %-d" }}</div> <a href="{{ site.url }}{{ post.url }}.html">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+
+  </div>
+
+</div>
+<br>
+<br>
+
+<h3> Guest Blogs </h3>
+
+This is the list of my guest blog posts and podcasts.
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    <div class="archive-title">
+      <h4 class="archive-year">2020</h4>
+    </div>
+    <ul>
+    <li>
+      <div style="width:60px;float:left;">Mar 30</div> <a href="https://blogs.cisco.com/developer/deep-learning-with-tensorflow" target="_blank">'Can Deep Learning with TensorFlow Fund Highways? Let’s Code It.' on Cisco DevNet Blog</a></li>
+
+
+    <li>
+      <div style="width:60px;float:left;">Jun 16</div> <a href="https://soundcloud.com/ciscouki/ep-78-journey-to-the-cloud" target="_blank">'Journey to the cloud with AppDynamics, CWOM and Natilik' on Cisco UKI podcast channel</a></li>
+
+    <li>
+      <div style="width:60px;float:left;">Oct 16</div> <a href="https://soundcloud.com/user-327105904/s7e41-design-thinking-for-innovative-solutions" target="_blank">'S7|E41 Design Thinking for Innovative Solutions' on Cisco Champion Radio podcast channel</a></li>
+    </ul>
+
+  </div>
+</div>
