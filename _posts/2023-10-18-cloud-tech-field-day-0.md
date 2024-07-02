@@ -12,7 +12,7 @@ comments: true
 Before Cloud Tech Field Day kicks off tomorrow, I decided to make the most of my Day 0 in Silicon Valley by meeting with some of Natilik key Multi-Cloud vendors. The day was packed with insightful conversations, and the first meeting I had was to have a breakfast with our newest vendor in our portfolio Spectro Cloud with their CTO, Saad Malik and Tenry Fu , Spectro Cloud CEO.
 
 &nbsp;
-<img src="../img/2023-10-18-cloud-tech-field-day-0/spectro.jpeg"
+<img src="../../img/2023-10-18-cloud-tech-field-day-0/spectro.jpeg"
      alt="" width="500" align="center" />
 
 We talked about inherent challenges faced by startups in securing funding. Saad, with his background as a co-founder, shared valuable insights into the tenacity required to navigate these hurdles. 
@@ -27,7 +27,7 @@ After a morning filled with insights, I rushed to PureStorage's office, where I 
 I was lucky enough to meet and spend some time with PureStorage CEO Charles Giancarlo . It was short but super interesting conversations about the current challenges and opportunities in various regions.
 
 &nbsp;
-<img src="../img/2023-10-18-cloud-tech-field-day-0/pure.jpeg"
+<img src="../../img/2023-10-18-cloud-tech-field-day-0/pure.jpeg"
      alt="" width="500" align="center" />
 
 My day concluded with a dinner gathering, led by Stephen Foskett , and attended by our group of Tech Field Day delegates. The evening was marked by the sharing of Tech Field Day secrets and a sense of anticipation for the upcoming Tech Field Day :) It's set to be a busy, action-packed day, starting early at 8 am and wrapping up after 5 pm. On to Tech Field Day 1!
