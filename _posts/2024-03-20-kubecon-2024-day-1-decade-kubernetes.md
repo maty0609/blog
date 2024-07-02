@@ -9,7 +9,7 @@ comments: true
 ---
 
 &nbsp;
-<img src="../img/2024-03-20-kubecon-2024-day-1-decade-kubernetes/kubecon.jpeg"
+<img src="../../img/2024-03-20-kubecon-2024-day-1-decade-kubernetes/kubecon.jpeg"
      alt="" width="500" align="center" />
 
 As Kubernetes enters its second decade, the first day of KubeCon 2024 was marked by a series of great discussions and presentations. 

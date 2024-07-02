@@ -9,7 +9,7 @@ comments: true
 ---
 
 &nbsp;
-<img src="../img/2024-03-19-what-did-i-learn-ai-last-12-months/llama.jpeg"
+<img src="../../img/2024-03-19-what-did-i-learn-ai-last-12-months/llama.jpeg"
      alt="" width="500" align="center" />
 
 Have you ever wondered what the future of AI will look like? How will it change our lives, our work, our society? If you are like me, you are probably fascinated by the rapid developments and innovations in this field. In this post, I want to share with you some of my thoughts and observations on the current state and trends of AI, based on my personal experience and research.

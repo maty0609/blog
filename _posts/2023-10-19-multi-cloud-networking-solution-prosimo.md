@@ -9,7 +9,7 @@ comments: true
 ---
 
 &nbsp;
-<img src="../img/2023-10-19-multi-cloud-networking-solution-prosimo/logo.jpeg"
+<img src="../../img/2023-10-19-multi-cloud-networking-solution-prosimo/logo.jpeg"
      alt="" width="500" align="center" />
 
 There has been lots of good sessions and good conversations yesterday with vendors like Juniper or AMD but one company really stand out for me personally and that was Prosimo.io .

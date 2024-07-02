@@ -9,7 +9,7 @@ comments: true
 ---
 
 &nbsp;
-<img src="../img/2023-10-25-building-ai-data-platforms-weka/logo.png"
+<img src="../../img/2023-10-25-building-ai-data-platforms-weka/logo.png"
      alt="" width="500" align="center" />
 
 In the realm of AI and Machine Learning (AI/ML) as well as image processing, the necessity for high-performance storage cannot be stressed enough. This involves high I/O capabilities with minimal latency, ensuring that operations are swift and seamless.

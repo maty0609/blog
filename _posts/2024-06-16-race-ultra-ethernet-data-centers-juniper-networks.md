@@ -30,26 +30,26 @@ Juniper’s opinion is that InfiniBand, with its complexity and approach to the 
 Every data center network (as a matter of fact, any network in general) needs congestion avoidance and congestion control. We want to absolutely avoid any congestion, and to address challenges around elephant flow load balancing, Juniper will use DLB either via Flowlet mode, where a single flow will be split into multiple flows and load balanced, or using packet spraying.
 
 &nbsp;
-<img src="../img/2024-06-16-race-ultra-ethernet-data-centers-juniper-networks/dlb-1.png"
+<img src="../../img/2024-06-16-race-ultra-ethernet-data-centers-juniper-networks/dlb-1.png"
      alt="" width="500" align="center" />
 
 
 Results? Evenly load balanced traffic across multiple uplinks:
 
 &nbsp;
-<img src="../img/2024-06-16-race-ultra-ethernet-data-centers-juniper-networks/dlb-2.png"
+<img src="../../img/2024-06-16-race-ultra-ethernet-data-centers-juniper-networks/dlb-2.png"
      alt="" width="500" align="center" />
 
 So now, for congestion control, we have the industry-wide used DCQCN as Congestion Control. However, an interesting statement from Juniper was that we don’t need a lossless network for AI/ML workloads and it can be actually beneficial to let the application breath rather than chase 100% lossless.
 
 &nbsp;
-<img src="../img/2024-06-16-race-ultra-ethernet-data-centers-juniper-networks/congestion-control.png"
+<img src="../../img/2024-06-16-race-ultra-ethernet-data-centers-juniper-networks/congestion-control.png"
      alt="" width="500" align="center" />
 
 Results with and without congestion control:
 
 &nbsp;
-<img src="../img/2024-06-16-race-ultra-ethernet-data-centers-juniper-networks/models-test.png"
+<img src="../../img/2024-06-16-race-ultra-ethernet-data-centers-juniper-networks/models-test.png"
      alt="" width="500" align="center" />
 
 Now, when we “see some packet drops,” do not expect we are talking about 10%+ packet loss. We are talking about less than 0.1% packet loss. However, this goes against the general statement that you need a lossless network to have a reliable and high-performing AI/ML network.

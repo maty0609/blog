@@ -13,14 +13,14 @@ Dell Technologies is celebrating its 40th anniversary this year, and I’ve been
 Dell’s strategy involves AI Factories, a collaboration with NVIDIA announced over 12 months ago under the project name Helix, which had its official launch at the GTC 2024 a few months back. This Dell-validated architecture introduces end to end AI infrastructure for enterprises. The Dell AI Factory architecture is unique because it’s comprehensive, encompassing compute, networking, storage, and more importantly endpoints. Currently, I believe no other vendor offers such an architecture—perhaps HPE/Juniper might in the future, but integrating these two portfolios will require time.
 
 &nbsp;
-<img src="../img/2024-05-21-dell-technologies-world-2024-day-1/dell-1.jpeg"
+<img src="../../img/2024-05-21-dell-technologies-world-2024-day-1/dell-1.jpeg"
      alt="" width="500" align="center" />
 
 
 The keynotes featured Silicon Valley legends, starting with Bill McDermott, the current CEO of ServiceNow (and former CEO of SAP), who discussed AI in his characteristic manner, describing it as “really big, really fast.” He highlighted how ServiceNow uses Dell’s infrastructure to develop their own LLM models. McDermott made an excellent point about the disarray of enterprise data and ServiceNow’s role in addressing it.
 
 &nbsp;
-<img src="../img/2024-05-21-dell-technologies-world-2024-day-1/dell-2.jpeg"
+<img src="../../img/2024-05-21-dell-technologies-world-2024-day-1/dell-2.jpeg"
      alt="" width="500" align="center" />
 
 
