@@ -4,7 +4,7 @@ excerpt: "Deep Learning with TensorFlow"
 title: Deep Learning with TensorFlow
 categories: [AI, TensorFlow, DevNet]
 author: Matyas
-published: false
+published: true
 ---
 
 

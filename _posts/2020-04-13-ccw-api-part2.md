@@ -4,7 +4,7 @@ excerpt: "CCW Estimate API Part 2 - Acquire Estimate"
 title: CCW Estimate API Part 2 - Acquire Estimate
 categories: [API, CCW, DevNet]
 author: Matyas
-published: false
+published: true
 comments: true
 ---
 
