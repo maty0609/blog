@@ -16,7 +16,7 @@ I'm simple person. If I really want to understand something I have to build it, 
 
 This is my private project so my budget will be limited. This is a good thing. I like limitations and constraints because they really push you to think, evaluate and assess things. I need to find the right balance between the performance I need and the final cost.
 
-### My Home Lab mission statement
+## My Home Lab mission statement
 
 Let's start to define what do I want to get out of this?
 
@@ -27,14 +27,16 @@ Let's start to define what do I want to get out of this?
 5. I'm NOT planning to replace Gemini or Perplexity by this. I don't have expectations this will allow me to run such large and capable models
 6. Make sure there will be at least some ROI at the beginning I will migrate some of my cloud services to this - mail server, web server, TeslaFi, HomeAssistant, NextCloud and VPN
 
-How do I want to use it for AI/ML experiments?
+## My Home Lab AI/ML Requirements
+
+How do I want to use this server for my AI/ML experiments?
 
 1. Inferencing - running LLM locally (80% of the time)
 2. Finetuning and training - Train video models, finetune LLM models (20% of the time)
 3. Learn more about Nvidia - CUDA, run NIMs etc.
 4. GenAI - Generate pictures and videos
 
-### GPU List
+## GPU List
 
 As this is going to be primarily AI home server I felt it will be the best to start with selecting the right GPU. Based on that I will decide other components. I wanted to make sure I will choose the best GPU based on price/performance ratio which means I don't need the best performing GPU but at the same time don't want to buy GPU only based on the lowest cost. It needs to sit somewhere in the middle. 
 
@@ -54,64 +56,64 @@ Before I have started to do decide which GPU to select I have built table with t
 
 Based on these details, I have shortlisted my selection to two GPUs: RTX 5090 (representing higher price but also higher performance) and RTX 3090 (representing middle priced GPU with above the average performance). Now I will assess each GPU against "required deliverables" when it comes to AI/ML.
 
-### Inferencing - running LLM locally
+## Req #1 - Inferencing - running LLM locally
 What do you need to consider when selecting GPU for finetuning?
 
-#### Memory Capacity (VRAM)
+### Memory Capacity (VRAM)
 Memory can be the only limitations when it comes to how large models you can run. Ideally you want to run your model from GPU VRAM. If the LLM doesn't fit in VRAM you will see a loss of speed due to RAM/VRAM transfers or CPU fallback. Or in the worst case failure...
 
 So would be huge difference for me running experiments with RTX 3090 of 24GB VRAM or RTX 5090 of 32GB VRAM? Probably not. 
 
-🏆 RTX 3090 is the winner.
+🏆 RTX 3090 is the winner. 🏆 
 
-#### Compute Performance
+### Compute Performance
 For inferencing, raw computational power (measured in TFLOPS or TOPS) is still relevant, but typically less critical for training and I would say that even more non-critical for me experimenting with AI/ML. It will be fine to handle single user requests or run other data models maybe little bit slower with RTX 3090 than with RTX 5090 and save some money.
 
-🏆 RTX 3090 is the winner.
+🏆 RTX 3090 is the winner. 🏆 
 
-#### Memory Bandwidth
+### Memory Bandwidth
 High memory bandwidth ensures smoother performance, particularly with large models or datasets. This enables faster data movement, preventing bottlenecks. Would I love to run 200B models? Absolutely. Does it make sense financially? Definitely not.
 
-🏆 RTX 3090 is the winner.
+🏆 RTX 3090 is the winner. 🏆 
 
-### Finetuning - finetune LLM models
+## Req #2 - Finetuning - finetune LLM models
 What do you need to consider when selecting GPU for finetuning?
 
-#### LOTS of memory to get everything you need into the memory
+### LOTS of memory to get everything you need into the memory
 
 When it comes to finetuning you have to squeeze into the memory lots of things - Shared Backbone Weights, Activations, Optimizer States, Gradients, Temp Buffers, Framework Overhead and Multi-GPU Overhead. When it comes to how much memory you will need the good rule of thumb is 16GB per 1B rule. With using technique like LoRa this ratio can be even more improved.
 
 If I would be buying single GPU day 1 I will be able to finetune larger models with RTX 5090 with 32GB VRAM than with RTX 3090 with only 24GB VRAM. However, if I will use LoRa I still be able to finetune smaller 7B or even 8B (small batch size like 2 or 3) with RTX 3090. I think for my first little experiments this is sufficient. If this will not be going to be enough I can buy another RTX 3090 or I can always upgrade to 5090....
 
-🏆 RTX 3090 is the winner.
+🏆 RTX 3090 is the winner. 🏆 
 
-#### GPU Compute Capability (FLOPS and memory bandwidth)
+### GPU Compute Capability (FLOPS and memory bandwidth)
 
 Speed of your hardware doesn't matter nearly as much as the techniques you apply. VRAM should be the focus of your decision.
 
 Basically if you don't have enough of memory there is no way you will get around finetuning your models. If you will have less performant GPUs the only thing will happened is that your finetuning will take a bit a longer. You can say that running job longer means less efficient and therefore more power consumption and you are right however this would be case of datacentre scale. For my little experiments this is not an issue. Solved.
 
-🏆 RTX 3090 is the winner.
+🏆 RTX 3090 is the winner. 🏆 
 
-#### Interconnect Bandwidth - NVlink vs PCIe Gen4/5
+### Interconnect Bandwidth - NVlink vs PCIe Gen4/5
 
 This is a tricky one. You will see lots of people giving their benchmarks with various results.
 
 Like I have stated mostly I will be using this for inferencing so what impact NVlink vs PCIe Gen4/5 will have? NVlink will have minor improvement for inferencing so no real advantage over PCIe however there seems solid proof that NVlink has huge improvements on finetuning performance over PCIe. Would I see more performance with RTX 5090 with 32GB VRAM over 2x RTX 3090 with total 48GB VRAM? Probably. Would I be able to actually do any more finetuning with single RTX 5090 than with single RTX 3090. Yes I would - slightly larger models. Since I will be able to test any finetuning concepts with smaller models I think it is save to say that RTX 3090 will be sufficient.
 
-🏆 RTX 3090 is the winner.
+🏆 RTX 3090 is the winner. 🏆 
 
-#### FP16/BF16 mixed precision, INT8
+### FP16/BF16 mixed precision, INT8
 Not really relevant for my use case at this point. I'm planning to use LoRa and LoRA which uses FP16/BF16 fixed base model weights.
 
-🏆 RTX 3090 is the winner.
+🏆 RTX 3090 is the winner. 🏆 
 
-#### Number of GPUs
+### Number of GPUs
 When a single GPU's resources are insufficient, the ability to use multiple GPUs in parallel (using DDP, FSDP, or ZeRO optimizations) is essential. The total available VRAM and aggregate compute power scale with the number of GPUs.
 
 I think this will be more relevant when selecting the right motherboard, chassis and memories. I can run in parallel multiple RTX 3090s or 5090s so it doesn't really have any weight when selecting the right GPU.
 
-### Learn more about Nvidia - CUDA, run NIMs etc.
+## Req #3 - Learn more about Nvidia - CUDA, run NIMs etc.
 
 RTX 3090 with CUDA compute capability 8.6 (Ampere, like RTX 30-series) do not support many new features introduced with CUDA 12.0, which are available only on newer hardware generations like RTX 5090 which runs on Blackwell. 
 
@@ -133,19 +135,19 @@ Key differences include:
 
 Right now at this point of time I can't say these are real limitations to me. Maybe they will be in the future and at least I'm aware of them but let's cross that bridge when I will get there. For now I'm fine with these limitations and limited features I will be able to test with RTX 3090.
 
-🏆 RTX 3090 is the winner.
+🏆 RTX 3090 is the winner. 🏆 
 
-### GenAI - Generate pictures and videos
+## Req #4 - GenAI - Generate pictures and videos
 
 I will want to run typical text to picture or video models i.e. Flux.1-dev, Hunyuan Video and Stable Diffusion 3.5. The good news is that you can run these models on either RTX 3090 or RTX 5090. The difference will be in how quickly they will be able to generate pictures. Based on most of the tests on the internet it seems like there is approximately 170% increase in performance between RTX 3090 and RTX 5090 which means 2.7 times faster. Even though the price is approx. 2 times higher I don't feel like this would justify the extra funding.
 
-🏆 RTX 3090 is the winner.
+🏆 RTX 3090 is the winner. 🏆 
 
-### Choosing the right GPU
+## Choosing the right GPU
 
-The winner is: RTX 3090!
+🏆  The winner is: RTX 3090! 🏆 
 
-### Links
+## Links
 Here is the list of links rebuilt in markdown format:
 
 * [NVIDIA Cuda Toolkit 12.0 Released for General Availability](https://developer.nvidia.com/blog/cuda-toolkit-12-0-released-for-general-availability/)
