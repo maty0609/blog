@@ -16,7 +16,7 @@ I'm simple person. If I really want to understand something I have to build it, 
 
 This is my private project so my budget will be limited. This is a good thing. I like limitations and constraints because they really push you to think, evaluate and assess things. I need to find the right balance between the performance I need and the final cost.
 
-I wanted to write this post mainly to give me a structure for selecting right GPU and maybe it will help to other people who are going through the same process.
+I wanted to write this post mainly to give me a structure for assessing different GPUs and who knows maybe it will help to other people who are going through the same process.
 
 ## My Home Lab mission statement
 
