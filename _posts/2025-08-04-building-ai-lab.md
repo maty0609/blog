@@ -12,7 +12,7 @@ So far there were 2 big transitions in the networking space during my lifetime -
 
 Over a decade later I had lots of fun in Google and Natilik in mid 2010s building cloud infrastructure and my cloud skills. I was able to get lots of hands on as engineer, architect but also last few years as cloud practice leader and I do believe we are now in the next big transition in networking space caused by AI.
 
-I'm very hands on person. If I really want to understand something I have to build it, break it, touch it and so I feel like the only way to really understand how to build AI infrastructure I will have to start learning how to build it with my own hands. So I have decided that I will be the first time since 2005 build the server and I can't be more excited about it!
+I'm simple person. If I really want to understand something I have to build it, break it, touch it and so I feel like the only way to really understand how to build AI infrastructure I will have to start learning how to build it with my own hands. So I have decided that I will be the first time since 2005 build the server and I can't be more excited about it!
 
 This is my private project so my budget will be limited. This is a good thing. I like limitations and constraints because they really push you to think, evaluate and assess things. I need to find the right balance between the performance I need and the final cost.
 
