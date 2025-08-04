@@ -16,6 +16,8 @@ I'm simple person. If I really want to understand something I have to build it, 
 
 This is my private project so my budget will be limited. This is a good thing. I like limitations and constraints because they really push you to think, evaluate and assess things. I need to find the right balance between the performance I need and the final cost.
 
+I wanted to write this post mainly to give me a structure for selecting right GPU and maybe it will help to other people who are going through the same process.
+
 ## My Home Lab mission statement
 
 Let's start to define what do I want to get out of this?
@@ -146,6 +148,10 @@ I will want to run typical text to picture or video models i.e. Flux.1-dev, Huny
 ## Choosing the right GPU
 
 🏆  The winner is: RTX 3090! 🏆 
+
+
+## What's next?
+I will be looking in following weeks on things like server chassis, motherboards, CPUs, disks, memories etc. I will write follow up posts on to cover my thinking process on other components.
 
 ## Links
 Here is the list of links rebuilt in markdown format:
