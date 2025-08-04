@@ -20,12 +20,12 @@ This is my private project so my budget will be limited. This is a good thing. I
 
 Let's start to define what do I want to get out of this?
 
-1) I want to have fun!
-2) Start small - I don't want to invest massive amount of money at the start and found out this is useless - this needs to be approached as PoC.
-3) I want to learn a lot about new HW, SW, products etc - end goal is to be able to build AI Server and eventually sell it if needed.
-4) Improve my knowledge about AI/ML in general - I want to learn the whole stack from the infrastructure all the way to the top with writing CUDA kernels
-5) I'm NOT planning to replace Gemini or Perplexity by this. I don't have expectations this will allow me to run such large and capable models
-6) Make sure there will be at least some ROI at the beginning I will migrate some of my cloud services to this - mail server, web server, TeslaFi, HomeAssistant, NextCloud and VPN
+1. I want to have fun!
+2. Start small - I don't want to invest massive amount of money at the start and found out this is useless - this needs to be approached as PoC.
+3. I want to learn a lot about new HW, SW, products etc - end goal is to be able to build AI Server and eventually sell it if needed.
+4. Improve my knowledge about AI/ML in general - I want to learn the whole stack from the infrastructure all the way to the top with writing CUDA kernels
+5. I'm NOT planning to replace Gemini or Perplexity by this. I don't have expectations this will allow me to run such large and capable models
+6. Make sure there will be at least some ROI at the beginning I will migrate some of my cloud services to this - mail server, web server, TeslaFi, HomeAssistant, NextCloud and VPN
 
 How do I want to use it for AI/ML experiments?
 
