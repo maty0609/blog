@@ -146,25 +146,26 @@ I will want to run typical text to picture or video models i.e. Flux.1-dev, Huny
 The winner is: RTX 3090!
 
 ### Links
-https://developer.nvidia.com/blog/cuda-toolkit-12-0-released-for-general-availability/
-https://www.perplexity.ai/search/what-limitations-i-would-encou-cThTzBJFQRGUO4gqe9rkiA#2
-https://www.reddit.com/r/LocalLLaMA/comments/1epnppd/psa_nvlink_boosts_training_performance_by_a_lot/
-https://www.runpod.io/blog/llm-fine-tuning-gpu-guide
-https://www.reddit.com/r/LocalLLaMA/comments/1m5ro7s/rtx_5090_32gb_vram_full_finetuning_what_can_i/
-https://apxml.com/tools/vram-calculator
-https://arxiv.org/html/2406.02290v2
-https://www.reddit.com/r/LocalLLaMA/comments/1ha3hwu/my_homelab_build_4x_rtx_3090_powerhouse/
-https://www.reddit.com/r/LocalLLaMA/comments/1jobe0u/benchmark_dualgpu_boosts_speed_despire_all_common/
-https://www.reddit.com/r/LocalLLaMA/comments/1jf0wvz/benchmark_results_pcie40_1x4x8x16xnvlink_30904090/
-https://www.reddit.com/r/LocalLLaMA/comments/1if2ve8/asking_for_nvidia_blackwell_rtx_50905080_for_30b/
-https://www.reddit.com/r/HomeServer/comments/1llibw8/comment/n031etp/?context=3&share_id=pK1uUq4earBpmvT5nS9rH&utm_content=1&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1
-https://www.reddit.com/r/LocalAIServers/comments/1llj00s/ia_server_finally_done/
-https://www.reddit.com/r/LocalLLaMA/comments/1c6y82z/is_a_4x_or_8x_3090_build_viable_for_both_training/
-https://himeshp.blogspot.com/2025/03/vllm-performance-benchmarks-4x-rtx-3090.html
-https://www.reddit.com/r/LocalLLaMA/comments/1m9uwxg/quad_4090_48gb_768gb_ddr5_in_jonsbo_n5_case/
-https://old.reddit.com/r/LocalLLaMA/comments/1j8i9rc/nvlink_improves_dual_rtx_3090_inference/
-https://www.reddit.com/r/LocalLLaMA/comments/1br6yol/myth_about_nvlink/
-https://www.reddit.com/r/LocalLLaMA/comments/1epnppd/psa_nvlink_boosts_training_performance_by_a_lot/
-https://www.reddit.com/r/StableDiffusion/comments/1iv6mid/rtx_5090_vs_3090_round_2_flux1dev_hunyuanvideo/
+Here is the list of links rebuilt in markdown format:
+
+* [NVIDIA Cuda Toolkit 12.0 Released for General Availability](https://developer.nvidia.com/blog/cuda-toolkit-12-0-released-for-general-availability/)
+* [What Limitations I Would Encount](https://www.perplexity.ai/search/what-limitations-i-would-encou-cThTzBJFQRGUO4gqe9rkiA#2)
+* [PSA: NVLink boosts training performance by a lot](https://www.reddit.com/r/LocalLLaMA/comments/1epnppd/psa_nvlink_boosts_training_performance_by_a_lot/)
+* [LLM Fine-Tuning GPU Guide](https://www.runpod.io/blog/llm-fine-tuning-gpu-guide)
+* [RTX 5090 32GB VRAM Full Fine-Tuning: What Can I Expect?](https://www.reddit.com/r/LocalLLaMA/comments/1m5ro7s/rtx_5090_32gb_vram_full_finetuning_what_can_i/)
+* [VRAM Calculator](https://apxml.com/tools/vram-calculator)
+* [ArXiv - Efficient Neural Network Training on GPU with NVIDIA's Tesla V100](https://arxiv.org/html/2406.02290v2)
+* [My HomeLab Build: 4x RTX 3090 Powerhouse](https://www.reddit.com/r/LocalLLaMA/comments/1ha3hwu/my_homelab_build_4x_rtx_3090_powerhouse/)
+* [Benchmark Results: Dual GPU Boosts Speed Despite All Common Caches](https://www.reddit.com/r/LocalLLaMA/comments/1jobe0u/benchmark_dualgpu_boosts_speed_despire_all_common/)
+* [Benchmark Results: PCIe 40x16 NVLink 3090 vs 4090](https://www.reddit.com/r/LocalLLaMA/comments/1jf0wvz/benchmark_results_pcie40_1x4x8x16xnvlink_30904090/)
+* [Asking for NVIDIA Blackwell RTX 5090 or 5080 for $30B](https://www.reddit.com/r/LocalLLaMA/comments/1if2ve8/asking_for_nvidia_blackwell_rtx_50905080_for_30b/)
+* [Comment on Home Server Build with NVIDIA GeForce RTX 3090](https://www.reddit.com/r/HomeServer/comments/1llibw8/comment/n031etp/?context=3&share_id=pK1uUq4earBpmvT5nS9rH&utm_content=1&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1)
+* [IA Server Finally Done](https://www.reddit.com/r/LocalAIServers/comments/1llj00s/ia_server_finally_done/)
+* [Is a 4x or 8x 3090 Build Viable for Both Training and Inference?](https://www.reddit.com/r/LocalLLaMA/comments/1c6y82z/is_a_4x_or_8x_3090_build_viable_for_both_training/)
+* [VLLM Performance Benchmarks: 4x RTX 3090](https://himeshp.blogspot.com/2025/03/vllm-performance-benchmarks-4x-rtx-3090.html)
+* [Quad 4090, 48GB, 768GB DDR5 in Jonsbo N5 Case](https://www.reddit.com/r/LocalLLaMA/comments/1m9uwxg/quad_4090_48gb_768gb_ddr5_in_jonsbo_n5_case/)
+* [NVLink Improves Dual RTX 3090 Inference Performance](https://old.reddit.com/r/LocalLLaMA/comments/1j8i9rc/nvlink_improves_dual_rtx_3090_inference/)
+* [Myth About NVLink](https://www.reddit.com/r/LocalLLaMA/comments/1br6yol/myth_about_nvlink/)
+* [RTX 5090 vs RTX 3090: Round 2 - Flux 1dev Hunyuan Video](https://www.reddit.com/r/StableDiffusion/comments/1iv6mid/rtx_5090_vs_3090_round_2_flux1dev_hunyuanvideo/)
 
 
