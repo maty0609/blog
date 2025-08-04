@@ -29,10 +29,10 @@ Let's start to define what do I want to get out of this?
 
 How do I want to use it for AI/ML experiments?
 
-1) Inferencing - running LLM locally (80% of the time)
-2) Finetuning and training - Train video models, finetune LLM models (20% of the time)
-3) Learn more about Nvidia - CUDA, run NIMs etc.
-4) GenAI - Generate pictures and videos
+1. Inferencing - running LLM locally (80% of the time)
+2. Finetuning and training - Train video models, finetune LLM models (20% of the time)
+3. Learn more about Nvidia - CUDA, run NIMs etc.
+4. GenAI - Generate pictures and videos
 
 ### GPU List
 
